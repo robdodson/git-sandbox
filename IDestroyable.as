@@ -26,9 +26,9 @@ package com.inchworm.core
 		function get isDestroyed():Boolean;
 		
 		/**
-		 * Determines if the object is bogus
+		 * Determines if the object is NOT bogus
 		 * 
 		 */
-		function get isBogus():Boolean;
+		function get isNotBogus():Boolean;
 	}
 }
