@@ -16,6 +16,7 @@ package com.inchworm.core
 		 * 
 		 */		
 		function destroy():void;
+		function bogus():void;
 		
 		/**
 		 * Determines if the object has been destroyed
@@ -23,5 +24,11 @@ package com.inchworm.core
 		 * 
 		 */		
 		function get isDestroyed():Boolean;
+		
+		/**
+		 * Determines if the object is bogus
+		 * 
+		 */
+		function get isBogus():Boolean;
 	}
 }
